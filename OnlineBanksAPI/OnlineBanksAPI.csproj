@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OnlineBankingAppService">
+      <HintPath>..\..\..\OneDrive\Documents\OnlineBanking2\OnlineBankingAppService\bin\Debug\net8.0\OnlineBankingAppService.dll</HintPath>
+    </Reference>
+    <Reference Include="OnlineBankingDataService">
+      <HintPath>..\..\..\OneDrive\Documents\OnlineBanking2\OnlineBankingAppService\bin\Debug\net8.0\OnlineBankingDataService.dll</HintPath>
+    </Reference>
+    <Reference Include="OnlineBankingModels">
+      <HintPath>..\..\..\OneDrive\Documents\OnlineBanking2\OnlineBankingAppService\bin\Debug\net8.0\OnlineBankingModels.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
